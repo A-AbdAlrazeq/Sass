@@ -1,0 +1,35 @@
+.myArticle {
+  border: 1px solid blue;
+}
+
+.myNotes {
+  border: 2px solid red;
+}
+
+.myTips {
+  border: 1px solid orange;
+}
+
+.button-basic, .button-submit, .button-report {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-report {
+  background-color: red;
+}
+
+.button-submit {
+  background-color: green;
+  color: white;
+}
+
+body {
+  background-color: Pink;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=main.css.map */

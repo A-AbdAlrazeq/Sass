@@ -1,0 +1,17 @@
+
+  @mixin bordered($color: blue, $width: 1px) {
+    border: $width solid $color;
+  }
+  
+  
+  .myArticle {
+    @include bordered;  // Call mixin with two values
+  }
+  
+  .myNotes {
+    @include bordered(red, 2px); // Call mixin with two values
+  }
+  .myTips {
+    @include bordered($color: orange);
+  }
+  

@@ -1,0 +1,7 @@
+@use '../scss';
+@use 'mixin';
+@use 'button';
+body{
+    background-color: scss.$color;
+    font-size:scss.$font-size ;
+}
